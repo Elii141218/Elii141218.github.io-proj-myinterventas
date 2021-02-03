@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,400;1,900&display=swap');
+
+html, body{
+    font-family: 'Montserrat', sans-serif;
+}
+.text-my{
+    color: #4D7C7F !important; 
+    font-weight: bold;
+}
+.btn-myinterv{
+    background-color: #4D7C7F;
+    color: white;
+}
+.btn-myinterv:hover{
+    background-color: #3e6366;
+}
+.lodeseo .btn{
+    border-radius: 28;
+    right: 20px;
+    background-color: #4D7C7F;
+    color: white;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+}
+.btn-outline-secondary:hover{
+    background-color: #3e6366;
+    color: white;
+}
+.card h5{
+    font-weight: bold;
+}
+.navbar img {
+    width: 60px;
+}
+.navbar{
+    background: linear-gradient(90deg,#0a0a0a,#292929 25%, #b4b3b3);
+}
+main .carousel-item img{
+    max-height: 70vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+.carousel{
+    position: relative;
+}
+.carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.carousel .overlay .container,
+.carousel .overlay .row{
+    height: 100%;
+}
+.container-fluid{
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+.container-fluid p{
+    padding-top: 25px;
+}
+.container-fluid h2{
+    padding-top: 40px;
+}
+
+.badge{
+    margin-left: 60%;
+}
+.servicios img{
+    max-width: 100%;
+}
+footer{
+    background: linear-gradient(90deg,#0a0a0a,#292929 25%, #b4b3b3);
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+.modulo_pago{
+    background-color: white;
+    box-shadow: 0px 0px 1px 0px black;
+    padding: 10px; 
+}
+.modulo_pago h3 {
+    font-weight: bold;
+}
+.modulo_pago p {
+    padding-top: 10px;
+}
+.modulo_pago form{
+    background-color: white;
+    padding: 5px;
+    padding-right: 250px;
+}
+.data{
+    margin-top: 10px;
+    width: 150%;
+    height: 25px;
+    border-radius: 2px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.btn_compra :hover{
+    background-color: #3e6366;
+}
